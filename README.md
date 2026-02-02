@@ -1,4 +1,4 @@
-````markdown
+
 # create-banshee-expo
 
 🚀 CLI tool to generate Expo React Native projects with custom structure and modular architecture.
@@ -31,7 +31,6 @@ npm link
 # Now you can use it anywhere
 npx create-banshee-expo MyApp
 ```
-````
 
 ## 🚀 Quick Start
 
