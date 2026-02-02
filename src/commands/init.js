@@ -95,7 +95,10 @@ const init = async (projectName) => {
 const createProjectStructure = async (projectPath) => {
   const directories = [
     "app",
-    "src/components",
+    "src/components/atoms",
+    "src/components/molecules",
+    "src/components/organisms",
+    "src/components/templates",
     "src/screens",
     "src/modules",
     "src/utils",
@@ -348,6 +351,10 @@ const styles = StyleSheet.create({
 const createIndexFiles = async (projectPath) => {
   const folders = [
     "src/components",
+    "src/components/atoms",
+    "src/components/molecules",
+    "src/components/organisms",
+    "src/components/templates",
     "src/screens",
     "src/utils",
     "src/services",
