@@ -1,0 +1,33 @@
+{
+  "name": "create-banshee-expo",
+  "version": "1.0.0",
+  "description": "CLI tool to generate Expo React Native projects with custom structure",
+  "main": "bin/index.js",
+  "bin": {
+    "create-banshee-expo": "./bin/index.js",
+    "banshee": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "cli",
+    "generator",
+    "template",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.6",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
